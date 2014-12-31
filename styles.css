@@ -1,0 +1,56 @@
+* {
+	text-transform: capitalize;
+}
+
+body {
+	background: url('http://www.ieadern.org.br/imagens/bg_top.jpg');
+	background-repeat: no-repeat;
+	background-size: 960px;
+	background-position: center top;
+}
+
+header {
+	padding-top: 20px;
+}
+
+.text-light {
+	color: #fff;
+	font-size: 20px;
+	margin-right: 50px;
+}
+
+.title {
+	text-align: center;
+}
+
+.navbar {
+	padding: 10px 0;
+}
+
+.navbar-inverse {
+	background-color: #19295A;
+}
+
+
+.navbar-form {
+	text-align: center;
+}
+
+.form-group {
+	margin: 0 30px; 
+}
+
+.bg-blue {
+	background-color: #555;
+	color: #fff;
+	padding: 15px 10px !important;
+	text-align: center;
+	font-size: 16px;
+}
+
+footer {
+	background: url('http://www.ieadern.org.br/imagens/bg_rod.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px;
+}
