@@ -44,23 +44,26 @@
 		</form>
 	</nav>
 	
-	<div ng-controller="setor1">
-		<div class="table-responsive">
-			<table class="table table-striped table-bordered">
-				<thead>
-					<th class="bg-blue">SETOR 01</th>
-				</thead>
-				<tr>
-					<th>IGREJA</th>
-					<th>PASTOR</th>
-				</tr>
-				<tr ng-repeat="x in igrejas | filter:igreja | filter:pastor">
-					<td>{{ x.igreja }}</td>
-					<td>{{ x.pastor }}</td>
-				</tr>
-			</table>
+	<div ng-controller="setores">
+		<div class="setor" ng-repeat='igrejas in sectors'>
+			<div class="table-responsive">
+				<table class="table table-striped table-bordered">
+					<thead>
+						<th class="bg-blue">SETOR {{$index + 1}}</th>
+					</thead>
+					<tr>
+						<th>IGREJA</th>
+						<th>PASTOR</th>
+					</tr>
+					<tr ng-repeat="x in igrejas | filter:igreja | filter:pastor">
+						<td>{{ x.igreja }}</td>
+						<td>{{ x.pastor }}</td>
+					</tr>
+				</table>
+			</div>
 		</div>
-<footer>
+	</div>
+	<footer>
 		
 	</footer>
 </body>
