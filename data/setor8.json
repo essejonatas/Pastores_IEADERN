@@ -1,7 +1,14 @@
-[{"igreja":"Pirangi","pastor":"Pr. José arimaldo Fernandes Da Silva"},
-{"igreja":"Jardim das Acácias","pastor":"Pb. Valdenci Soares da Silva"},
-{"igreja":"Monte Belo","pastor":"Pb. Edson Francisco de Araújo"},
-{"igreja":"Monte Gerezim","pastor":"Pb. Valdemir caldas de Lima"},
-{"igreja":"Nova Parnamirim","pastor":"Pb. Luciano moura de Castro"},
-{"igreja":"Portal do Jiqui","pastor":"Pb. Wattson de Medeiros de Souza"},
-{"igreja":"Vale do Renovo","pastor":"Pb. João Maria Avelino deSouza"}]
+{
+	"setor" : 8,
+	"igrejas":[
+		{"igreja":"Pte. Bandeira","pastor":"Pr. Jozenil Barbosa de Araújo"},
+		{"igreja":"Cidade Alta","pastor":"Pb. João Emídio Soares"},
+		{"igreja":"Lírio dos Vales ","pastor":"Pb. Maurício Faustino Gomes"},
+		{"igreja":"Nova Galiléia","pastor":"Dc. Eudes Batista da Silva"},
+		{"igreja":"Novo Alvorecer","pastor":"Pb. Antônio José de Almeida"},
+		{"igreja":"Novo Viver","pastor":"D. Henrique Coelho Linhares"},
+		{"igreja":"Passo da Pátria","pastor":"Pb. Salatiel Gerônimo Olegário"},
+		{"igreja":"Rosa de Sarom","pastor":" Pb. Alexandre Sérgio da Trindade"},
+		{"igreja":"Borborema","pastor":"Pb. José Genival de Lima"}
+	]
+}

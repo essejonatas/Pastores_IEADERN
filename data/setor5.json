@@ -1,6 +1,14 @@
-[{"igreja":"Candelária","pastor":"Pr. Marcos de Souza Sobrinho"},
-{"igreja":"Fonte de Vida","pastor":" Pb. José Nogueira da Costa"},
-{"igreja":"Lagoa Nova","pastor":"Pb. Paulo César Bezerra"},
-{"igreja":"Mirassol","pastor":"Pb. Josadac Bernardino de Oliveira"},
-{"igreja":"Nova Cidade","pastor":"Pb. Eric César Gomes"},
-{"igreja":"Potilândia","pastor":"Pb. Silvano Rodrigues de Medeiros"}]
+{
+	"setor" : 5,
+	"igrejas":[
+		{"igreja":"Pte. Bandeira","pastor":"Pr. Jozenil Barbosa de Araújo"},
+		{"igreja":"Cidade Alta","pastor":"Pb. João Emídio Soares"},
+		{"igreja":"Lírio dos Vales ","pastor":"Pb. Maurício Faustino Gomes"},
+		{"igreja":"Nova Galiléia","pastor":"Dc. Eudes Batista da Silva"},
+		{"igreja":"Novo Alvorecer","pastor":"Pb. Antônio José de Almeida"},
+		{"igreja":"Novo Viver","pastor":"D. Henrique Coelho Linhares"},
+		{"igreja":"Passo da Pátria","pastor":"Pb. Salatiel Gerônimo Olegário"},
+		{"igreja":"Rosa de Sarom","pastor":" Pb. Alexandre Sérgio da Trindade"},
+		{"igreja":"Borborema","pastor":"Pb. José Genival de Lima"}
+	]
+}
