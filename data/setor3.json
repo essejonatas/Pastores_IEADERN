@@ -1,6 +1,14 @@
-[{"igreja":"Soledade II","pastor":"Pr. José Ilmar Ferreira"},
-{"igreja":"Betsaida","pastor":"Pb. Edson de Castro de Freitas"},
-{"igreja":"El-Shadday","pastor":"Ev. Manoel Zenilson Gabriel"},
-{"igreja":"Galiléia","pastor":"Pb. Rozenaldo Medeiros de Souza Cabral"},
-{"igreja":"Monte Sinai","pastor":"Pb. Genival José Rodrigues"},
-{"igreja":"Porta Formosa","pastor":"Pb. José Naido de Lima"}]
+{
+	"setor" : 3,
+	"igrejas":[
+		{"igreja":"Pte. Bandeira","pastor":"Pr. Jozenil Barbosa de Araújo"},
+		{"igreja":"Cidade Alta","pastor":"Pb. João Emídio Soares"},
+		{"igreja":"Lírio dos Vales ","pastor":"Pb. Maurício Faustino Gomes"},
+		{"igreja":"Nova Galiléia","pastor":"Dc. Eudes Batista da Silva"},
+		{"igreja":"Novo Alvorecer","pastor":"Pb. Antônio José de Almeida"},
+		{"igreja":"Novo Viver","pastor":"D. Henrique Coelho Linhares"},
+		{"igreja":"Passo da Pátria","pastor":"Pb. Salatiel Gerônimo Olegário"},
+		{"igreja":"Rosa de Sarom","pastor":" Pb. Alexandre Sérgio da Trindade"},
+		{"igreja":"Borborema","pastor":"Pb. José Genival de Lima"}
+	]
+}

@@ -33,29 +33,30 @@
 		<form class="navbar-form" role="search">
 			<span class="text-light">filtre sua busca: </span>
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="setor" ng-model="setor">
+				<input type="text" id="setor-form" class="form-control" placeholder="setor" ng-model="setor">
 			</div>
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="congregação" ng-model="igreja">
+				<input type="text" id="igreja-form" class="form-control" placeholder="congregação" ng-model="igreja">
 			</div>
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="pastor" ng-model="pastor">
+				<input type="text" id="pastor-form" class="form-control" placeholder="pastor" ng-model="pastor">
 			</div>
 		</form>
 	</nav>
 	
 	<div ng-controller="setores">
+		<input type="hidden" id="setores-val" value='{{sectors}}'>
 		<div class="setor" ng-repeat='igrejas in sectors'>
-			<div class="table-responsive">
+			<div class="table-responsive setor-data" id="set-{{igrejas.setor}}">
 				<table class="table table-striped table-bordered">
 					<thead>
-						<th class="bg-blue">SETOR {{$index + 1}}</th>
+						<th class="bg-blue">SETOR {{igrejas.setor}}</th>
 					</thead>
 					<tr>
 						<th>IGREJA</th>
 						<th>PASTOR</th>
 					</tr>
-					<tr ng-repeat="x in igrejas | filter:igreja | filter:pastor">
+					<tr ng-repeat="x in igrejas.igrejas | filter:igreja | filter:pastor">
 						<td>{{ x.igreja }}</td>
 						<td>{{ x.pastor }}</td>
 					</tr>
