@@ -1,61 +1,24 @@
-var i = angular.module("IEADERN",[]);
+var app = angular.module("IEADERN",[]);
 
-i.controller('setor1', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
+app.controller('setores', function($scope, $http){
+	var sectors = [];
+	var stop = false;
+	function loadSectors(){
+		for(var i = 1; i < 11; i++){
+			
 
-i.controller('setor2', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
+			$http.get('data/setor'+ i +'.json')
+			.success(function(data){
+				console.log(data);
+				sectors[sectors.length] = data;
+			})
+			.error(function(data,status){
+				console.log(status);
+				stop = true;
+			});
 
-i.controller('setor3', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor4', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor5', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor6', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor7', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor8', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor9', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
-});
-
-i.controller('setor10', function($scope, $http){
-	$http.get('data/setor1.json').success(function(data){
-		$scope.igrejas = data
-	});
+		}
+	}
+	loadSectors();
+	$scope.sectors = sectors;
 });
